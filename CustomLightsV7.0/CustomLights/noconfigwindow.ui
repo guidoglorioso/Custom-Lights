@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NoConfigWindow</class>
+ <widget class="QDialog" name="NoConfigWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomLights - Primera Configuracion</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>501</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab_1">
+    <attribute name="title">
+     <string>Bienvenida</string>
+    </attribute>
+    <widget class="QTextEdit" name="Bienvenida_TE">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>441</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Hola, te damos la bienvenida a CustomLightApp!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Desde acá vas a poder personalizar las luces como más te guste.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Para poder comenzar a utilizarlas debés ingresar la información correspondiente a tu equipo.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Podés ingresar los datos desde esta ventana o podés hacerlo más tarde desde la solapa de configuración.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Recordá que las funcionalidades van a estar deshabilitadas hasta que ingreses dicha información.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Presioná en &amp;quot;Siguiente&amp;quot; para proceder con las configuraciones&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Bienvenida_sig">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>270</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Siguiente</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Bienvenida_titulo">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>441</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Bienvenid@ a CustomLights</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Red</string>
+    </attribute>
+    <widget class="QLabel" name="Red_titulo">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>441</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Configuración de Red</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Red_sig">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>280</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Siguiente</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Red_volver">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Volver</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Red_TE">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>441</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;¿Cómo conectar el CustomLights Controller con tu computadora?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Tenés que seguir los siguientes pasos:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;1-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Conectarte a la red &amp;quot;CustomLights&amp;quot; e ingresar la contraseña &amp;quot;CustomLightsPSW&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#cc0000;&quot;&gt;Nota:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Si tu computadora no tiene un módulo WiFi podes seguir las    instrucciones desde cualauquier otro dispositivo que sí tenga, por    ejemplo, tu celular.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;2-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Desde un navegador web escribir el siguiente comando en la barra de búsqueda: &amp;quot;192.168.0.4:NET-XXXX&amp;quot; donde XXXX es el nombre de tu red. Luego presionar enter.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;3-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Desde un navegador web escribir el siguiente comando en la barra de búsqueda: &amp;quot;192.168.0.4:PSW-XXXX&amp;quot; donde XXXX es la contraseña de tu red. Luego presionar enter.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;4-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Esperar a que se conecte. El estado debe decir &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#4e9a06;&quot;&gt;Conectado!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Si pasaron más de 30 segundos y el estado sigue siendo &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#cc0000;&quot;&gt;Desconectado!&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt; , probá los siuientes tips:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;Reenvía la red y la contraseña al CustomLights Controller, tal vez escribiste algo mal&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; Verificá que la computadora y el CustomLightsController estén conectados a la misma red WiFi.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; Chequeá que el CustomLightsController esté enchufado a la red eléctrica.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Hardware</string>
+    </attribute>
+    <widget class="QPushButton" name="HW_finalizar">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>270</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Finalizar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="HW_volver">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Volver</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Recorrido_titulo">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>40</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Sentido de recorrido</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Abajo_titulo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>200</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">qproperty-alignment: AlignLeft;</string>
+     </property>
+     <property name="text">
+      <string>Abajo:</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>40</y>
+       <width>20</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>40</y>
+       <width>20</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Derecha_TE">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>150</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_Antihorario">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>170</y>
+       <width>100</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Antihorario</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Izquierda_TE">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>501</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Pantalla_L">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>100</y>
+       <width>171</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+font: bold;
+qproperty-alignment: AlignCenter;
+background-color: rgb(0, 0, 0);
+border-radius:10;</string>
+     </property>
+     <property name="text">
+      <string>Pantalla</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>501</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>501</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Modulos_titulo">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Cantidad de módulos</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ubicacion_titulo">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Ubicación del primer módulo</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Abajo_TE">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Izquierda_titulo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">qproperty-alignment: AlignLeft;</string>
+     </property>
+     <property name="text">
+      <string>Izquierda:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Titulo">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>501</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+     </property>
+     <property name="text">
+      <string>Configuración de Hardware</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Derecha_titulo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">qproperty-alignment: AlignLeft;</string>
+     </property>
+     <property name="text">
+      <string>Derecha:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_Horario">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>110</y>
+       <width>100</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Horario</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Arriba_TE">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>110</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Arriba_titulo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">qproperty-alignment: AlignLeft;</string>
+     </property>
+     <property name="text">
+      <string>Arriba:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>110</y>
+       <width>21</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_4">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>170</y>
+       <width>21</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_1">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>110</y>
+       <width>21</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="RB_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>170</y>
+       <width>21</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Com_in">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>270</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tipo_transmicion">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>250</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">qproperty-alignment: AlignLeft;</string>
+     </property>
+     <property name="text">
+      <string>Tipo de transmicion:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boton_comunicacion">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>270</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Serie</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

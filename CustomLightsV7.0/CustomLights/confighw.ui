@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigHw</class>
+ <widget class="QDialog" name="ConfigHw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>501</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomLights - ConfigHw</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>20</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Izquierda_TE">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Derecha_TE">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>150</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_Antihorario">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>170</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Antihorario</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_Horario">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>110</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Horario</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>501</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Guardar">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Abajo_TE">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>190</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Modulos_titulo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>Cantidad de módulos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Derecha_titulo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignLeft;</string>
+   </property>
+   <property name="text">
+    <string>Derecha:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>501</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Ubicacion_titulo">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>Ubicación del primer módulo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Recorrido_titulo">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>40</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>Sentido de recorrido</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Izquierda_titulo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignLeft;</string>
+   </property>
+   <property name="text">
+    <string>Izquierda:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Arriba_TE">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Arriba_titulo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignLeft;</string>
+   </property>
+   <property name="text">
+    <string>Arriba:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pantalla_L">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>171</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255,255,255);
+font: bold;
+qproperty-alignment: AlignCenter;
+background-color: rgb(0, 0, 0);
+border-radius:10;</string>
+   </property>
+   <property name="text">
+    <string>Pantalla</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Abajo_titulo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignLeft;</string>
+   </property>
+   <property name="text">
+    <string>Abajo:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>40</y>
+     <width>20</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>501</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Titulo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>501</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>Configuración de Hardware</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Descartar">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>270</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Descartar</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>110</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>170</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RB_4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>170</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Boton_comunicacion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Serie</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tipo_transmicion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignLeft;</string>
+   </property>
+   <property name="text">
+    <string>Tipo de transmicion:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Com_in">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

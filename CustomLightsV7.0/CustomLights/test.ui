@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Test</class>
+ <widget class="QDialog" name="Test">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomLights - Test</string>
+  </property>
+  <widget class="QLabel" name="Pantalla_der">
+   <property name="geometry">
+    <rect>
+     <x>403</x>
+     <y>119</y>
+     <width>16</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Derecha_Apagar">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>148</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Izquierda_Apagar">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>148</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Abajo_Apagar_2">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>218</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Arriba_titulo_2">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>34</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignCenter;
+</string>
+   </property>
+   <property name="text">
+    <string>Arriba:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pantalla_izq">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>119</y>
+     <width>16</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pantalla_arr">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>103</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Test_TE">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>48</y>
+     <width>211</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    Verificá que se prendan y apaguen correctamente los leds&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    En caso que estén distribuidos mal espacialmente     &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-&amp;gt;    Verificá que los datos que ingresaste en el paso anterior sean correctos&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    En caso de que algunos (o todos) leds no enciendan&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-&amp;gt;    Verificá que estén bien conectados entre sí y al CustomLightController&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Abajo_titulo_2">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>178</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignCenter;
+</string>
+   </property>
+   <property name="text">
+    <string>Abajo:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Derecha_titulo_2">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>108</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignCenter;
+</string>
+   </property>
+   <property name="text">
+    <string>Derecha:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Arriba_Apagar">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>74</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Off</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Titulo_5">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>18</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;</string>
+   </property>
+   <property name="text">
+    <string>Sección de Testeo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Arriba_Prender">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>54</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>On</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Test_Cerrar">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>278</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Izquierda_titulo_2">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>108</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignCenter;
+</string>
+   </property>
+   <property name="text">
+    <string>Izquierda:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Abajo_Prender">
+   <property name="geometry">
+    <rect>
+     <x>341</x>
+     <y>198</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>On</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Derecha_Prender">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>128</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>On</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Izquerda_Prender">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>128</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>On</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pantalla">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>119</y>
+     <width>74</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: AlignCenter;
+background-color: rgb(0, 0, 0);
+color: rgb(255,255,255);</string>
+   </property>
+   <property name="text">
+    <string>Pantalla</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pantalla_aba">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>160</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 40, 40);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

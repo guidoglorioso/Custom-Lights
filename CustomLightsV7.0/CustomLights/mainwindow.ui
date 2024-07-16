@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomLights</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Firma">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-alignment: AlignCenter;</string>
+    </property>
+    <property name="text">
+     <string>Powered by Proyecto X - V1.0</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>771</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>CustomLights</string>
+     </attribute>
+     <widget class="QComboBox" name="Modo_CB">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>251</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Modo_TE">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>53</y>
+        <width>251</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Modo_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>251</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Modo:</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="Color_G_SLI">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>160</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Brillo_CHB">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>260</y>
+        <width>161</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Variar Brillo con Sonido</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Conf_PB_Abrir">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>251</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Abrir CustomLights</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>0</y>
+        <width>20</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>90</y>
+        <width>481</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Conf_PB_Cerrar">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>300</y>
+        <width>251</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Guardar CustomLights</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>220</y>
+        <width>481</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Borde_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>251</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Captura de Borde:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_titulo">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>100</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Color:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Brillo_titulo">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>230</y>
+        <width>251</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Brillo:</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="Color_R_SLI">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>130</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QSlider" name="Color_B_SLI">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>190</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_R_titulo">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>130</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;
+background-color: rgb(244,0,0);
+border-radius: 5;
+color: rgb(255,255,255);
+</string>
+      </property>
+      <property name="text">
+       <string>Red:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_G_titulo">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>160</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;
+background-color: rgb(0,244,0);
+border-radius: 5;
+color: rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Green:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_B_titulo">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>190</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold;
+qproperty-alignment: AlignCenter;
+background-color: rgb(0,0,244);
+border-radius: 5;
+color: rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Blue:</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="Brillo_SLI">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>290</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Brillo_titulo_2">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>290</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Brillo:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_R_Aux">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>130</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_G_Aux">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>160</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_B_Aux">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>190</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Brillo_Aux">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>290</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X%</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="Borde_Ancho">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>50</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Borde_Ancho_titulo">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ancho:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Borde_Ancho_Aux">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>50</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Color_LB">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>150</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 10;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>320</y>
+        <width>481</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Sonido_titulo">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>330</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Sonido:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="SONIDO_CB">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>360</y>
+        <width>311</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Sonido_titulo_2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>360</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Entrada:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Configuración</string>
+     </attribute>
+     <widget class="QTextEdit" name="Hw_TE_Info">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>341</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;Cantidad de Módulos:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;-&amp;gt; Izquierda: X&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;-&amp;gt; Arriba:       X&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;-&amp;gt; Derecha:   X&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;-&amp;gt; Abajo:        X&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;Ubicación del primer módulo:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;	        O                          O&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;	                Pantalla&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;	        O                          O&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;Sentido de recorrido:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt; Horario&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Red_TE_Info">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>60</y>
+        <width>341</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;SSID:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; -&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#cc0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;IP del CustomLightsController:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;  -&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="HW_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Configuración del Equipo:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Red_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>10</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Configuración de Red:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Dir_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>260</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: bold</string>
+      </property>
+      <property name="text">
+       <string>Directorio para guardar tus CustomLights:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HW_Config">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>341</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Configurar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Dir_Cambiar">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>280</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cambiar</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Dir_textEdit">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>481</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#f40000;&quot;&gt;No configurado!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Red_Ayuda">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>220</y>
+        <width>341</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>¿Cómo configurar el CustomLight Controller?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Test_PB">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>280</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Testear</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Red_TE_Estado">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>30</y>
+        <width>341</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;Estado:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#f57900;&quot;&gt;Conectando...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Hw_TE_Estado">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>341</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;Estado: &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#f40000;&quot;&gt;No Configurado!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

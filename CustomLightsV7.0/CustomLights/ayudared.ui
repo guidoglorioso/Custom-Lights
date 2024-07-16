@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AyudaRed</class>
+ <widget class="QDialog" name="AyudaRed">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomLights - Ayuda Red</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>20</y>
+     <width>491</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;¿Cómo conectar el CustomLights Controller con tu computadora?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Tenés que seguir los siguientes pasos:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;1-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Conectarte a la red &amp;quot;CustomLights&amp;quot; e ingresar la contraseña &amp;quot;CustomLightsPSW&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#cc0000;&quot;&gt;Nota:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Si tu computadora no tiene un módulo WiFi podes seguir las    instrucciones desde cualauquier otro dispositivo que sí tenga, por    ejemplo, tu celular.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;2-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Desde un navegador web escribir el siguiente comando en la barra de búsqueda: &amp;quot;192.168.0.4:NET-XXXX&amp;quot; donde XXXX es el nombre de tu red. Luego presionar enter.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;3-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Desde un navegador web escribir el siguiente comando en la barra de búsqueda: &amp;quot;192.168.0.4:PSW-XXXX&amp;quot; donde XXXX es la contraseña de tu red. Luego presionar enter.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600;&quot;&gt;4-&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; Esperar a que se conecte. El estado debe decir &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#4e9a06;&quot;&gt;Conectado!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;Si pasaron más de 30 segundos y el estado sigue siendo &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:600; color:#cc0000;&quot;&gt;Desconectado!&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt; , probá los siguientes tips:&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt; color:#000000;&quot;&gt;Reenvía la red y la contraseña al CustomLights Controller, tal vez escribiste algo mal&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; Verificá que la computadora y el CustomLightsController estén conectados a la misma red WiFi.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:10pt;&quot;&gt;    -&amp;gt; Chequeá que el CustomLightsController esté enchufado a la red eléctrica.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>370</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
